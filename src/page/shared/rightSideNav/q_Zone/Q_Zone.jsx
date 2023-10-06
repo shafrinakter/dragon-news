@@ -5,9 +5,9 @@ const Q_Zone = () => {
     return (
         <div className="mb-10 bg-[#F3F3F3] p-2">
         <h1 className="font-bold text-2xl">Q-Zone</h1>
-        <img src={qzone1} alt="" />
-        <img src={qzone2} alt="" />
-        <img src={qzone3} alt="" />
+        <img className='w-full' src={qzone1} alt="" />
+        <img className='w-full' src={qzone2} alt="" />
+        <img className='w-full' src={qzone3} alt="" />
     </div>
     );
 };

@@ -26,8 +26,8 @@ const Register = () => {
         <Navbar></Navbar>
         <div className=" mt-10">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <div className="card flex-shrink-0 w-6/12 shadow-2xl bg-base-100">
-                    <h1 className="text-center text-3xl font-semibold text-[#403F3F] mt-5">Register your account</h1> <hr className="mt-5" />
+                <div className="p-3 card flex-shrink-0 w-full lg:w-6/12 md:w-6/12 shadow-2xl bg-base-100">
+                    <h1 className="text-center text-2xl  font-semibold text-[#403F3F] mt-5">Register your account</h1> <hr className="mt-5" />
                     <form onSubmit={handleRegister} className="p-10 space-y-5">
                         <div className="form-control">
                             <label className="label">
